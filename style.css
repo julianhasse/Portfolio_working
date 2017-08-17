@@ -1,0 +1,131 @@
+* {
+/* The box-sizing property is used to tell the browser what the sizing 
+properties (width and height) should include. */
+  box-sizing:border-box; 
+  text-align: center;
+}
+
+body {
+  margin:0px;
+}
+
+#wrapper {
+  /* sticky footer using the calc() function */
+  min-height: calc(100vh - 72px);
+}
+
+header {
+  background-color: #FFF;
+  padding:30px;
+  margin-bottom: 40px;
+  color:#888;
+  border-bottom: thin solid #777;
+}
+
+section {
+  padding:20px;
+  margin-bottom: 40px;
+}
+
+#left {
+  background-color: #efeee7;
+  color: #888;
+  width: 60%;
+  float: left;
+}
+
+#middle {
+  background-color: #efeee7;
+  color: #888;
+  width: 33%;
+  float: left;
+}
+
+#right {
+   background-color: #ccc;
+   color: #888;
+   width: 40%;
+   float: left;
+}
+
+#full {
+   background-color: #ccc;
+   clear: both;
+   overflow: auto;
+   width: 100%
+   padding:20px;
+   margin-bottom: 10px;
+   min-height: 300px;
+}
+
+aside {
+	background-color:white;
+  padding: 50px;
+  color:#888;
+  border: 1px solid #777
+
+}
+
+article {
+  background-color:white;
+  padding:50px;
+  color:#888;
+  width:60%;
+  float:left;
+  border: 1px solid #777
+}
+
+footer {
+  background-color: #ccc;
+  padding:20px;
+  color:#888;
+  font-size:12px;
+  border-top: thick solid #4aaaa5;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	
+}
+
+#middleSection {
+  padding:40px;
+  color:#888;
+}
+
+#logo {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 24px;
+  float:left;
+  padding: 10px 10px 5px 5px;
+  background-color: #4aaaa5;
+  color:#FFF;
+  margin:0px;
+
+}
+
+nav {
+  float:right;
+  margin-right: 150px;
+  margin-top: 0px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size:15px;
+}
+
+.button:hover {
+  color:#4aaaa5;
+}
+
+a:link {
+    text-decoration: none;
+      color:#777;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}

@@ -11,7 +11,9 @@ body {
 
 #wrapper {
   /* sticky footer using the calc() function */
-  min-height: calc(100vh - 91px);
+  min-height: calc(100vh - 121px);
+  background-image: url('images/ep_naturalwhite.png');
+  background-repeat: repeat;
 }
 
 header {
@@ -48,11 +50,11 @@ section {
   background-color: #ccc;
   clear: both;
   overflow: auto;
-  width: 88%;
+  width: 86%;
   position: absolute;
   left: 100px;
   padding:20px;
-  margin-bottom: 10px;
+
   min-height: 300px;
 }
 

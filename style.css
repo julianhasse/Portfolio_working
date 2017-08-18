@@ -62,7 +62,7 @@ aside {
 	background-color:white;
   padding: 50px;
   color:#888;
-  width:250px;
+  width:259px;
   border: 1px dotted #ddd;
   min-height:200px;
   margin-right: 20px;
@@ -182,4 +182,22 @@ a:active {
 
 .mainContent {
   margin-top: 21px;
+}
+
+.iconLeft {
+  float:left;
+  margin-right: 3px
+}
+
+.iconCenter {
+  float:left;
+  margin-right: 3px
+}
+
+.iconRight {
+  float:left;
+}
+
+.icons {
+  margin-top: 20px;
 }

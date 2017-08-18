@@ -28,17 +28,11 @@ section {
   margin-bottom: 40px;
 }
 
+/*
 #left {
   background-color: #efeee7;
   color: #888;
   width: 40%;
-  float: left;
-}
-
-#middle {
-  background-color: #efeee7;
-  color: #888;
-  width: 15;
   float: left;
 }
 
@@ -48,12 +42,15 @@ section {
   width: 25%;
   float: left;
 }
+*/
 
 #full {
   background-color: #ccc;
   clear: both;
   overflow: auto;
-  width: 100%;
+  width: 88%;
+  position: absolute;
+  left: 100px;
   padding:20px;
   margin-bottom: 10px;
   min-height: 300px;
@@ -65,7 +62,7 @@ aside {
   color:#888;
   border: 1px solid #777;
   min-height:300px;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 article {
@@ -102,7 +99,8 @@ footer {
   background-color: #4aaaa5;
   color:#FFF;
   margin:0px;
-
+  position: absolute;
+  left: 100px;
 }
 
 nav {
@@ -113,7 +111,6 @@ nav {
   font-size:15px;
   padding-top: 26px;
 }
-
 
 .button:hover {
   color:#4aaaa5;
@@ -126,12 +123,15 @@ a:link {
 
 a:visited {
   text-decoration: none;
+  color:#777;
 }
 
 a:hover {
   text-decoration: none;
+  color:#777;
 }
 
 a:active {
   text-decoration: none;
+  color:#777;
 }

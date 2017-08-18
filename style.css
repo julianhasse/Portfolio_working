@@ -51,9 +51,9 @@ section {
   margin-top: 15px;
   clear: both;
   overflow: auto;
-  width:70%;
+  width: 51%;
   position: absolute;
-  left: 300px;
+  left: 480px;
   padding:0px;
   min-height: 300px;
 }
@@ -62,17 +62,19 @@ aside {
 	background-color:white;
   padding: 50px;
   color:#888;
+  width:250px;
   border: 1px dotted #ddd;
   min-height:200px;
   margin-right: 20px;
   text-align: center;
+  float:right;
 }
 
 article {
   background-color:white;
   padding:50px;
   color:#888;
-  width:50%;
+  width:650px;
   float:left;
   border: 1px dotted #ddd;
   min-height:300px;
@@ -85,6 +87,7 @@ footer {
   font-size:12px;
   border-top: thick solid #4aaaa5;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: center;
 	
 }
 
@@ -94,7 +97,7 @@ footer {
 }
 
 #logo {
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
   font-size: 24px;
   font-weight: bold;
   float:left;
@@ -103,12 +106,12 @@ footer {
   color:#FFF;
   margin:0px;
   position: absolute;
-  left: 300px;
+  left: 480px;
 }
 
 nav {
   float:right;
-  margin-right: 300px;
+  margin-right: 480px;
   margin-top: 0px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size:15px;
@@ -140,16 +143,16 @@ a:active {
 }
 
 #logo:hover {
- transform:rotate(-5deg);
- border-radius: 12px;
+  transform:rotate(-5deg);
+  border-radius: 12px;
 }
 
 hr {
- border-width: 1px;
- border-color:#ddd;
+  border-width: 1px;
+  border-color:#ddd;
 }    
 .headings {
-color:#4aaaa5;
-font-family:'Georgia', Times, Times New Roman, serif;
-font-weight: bold;
+  color:#4aaaa5;
+  font-family:'Georgia', Times, Times New Roman, serif;
+  font-weight: bold;
 }

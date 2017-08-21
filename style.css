@@ -1,6 +1,30 @@
+/*
+           ____,'`-, 
+      _,--'   ,/::.; 
+   ,-'       ,/::,' `---.___        ___,_ 
+   |       ,:';:/        ;'"`;"`--./ ,-^.;--. 
+   |:     ,:';,'         '         `.   ;`   `-. 
+    \:.,:::/;/ -:.                   `  | `     `-. 
+     \:::,'//__.;  ,;  ,  ,  :.`-.   :. |  ;       :. 
+      \,',';/O)^. :'  ;  :   '__` `  :::`.       .:' ) 
+      |,'  |\__,: ;      ;  '/O)`.   :::`;       ' ,' 
+           |`--''            \__,' , ::::(       ,' 
+           `    ,            `--' ,: :::,'\   ,-' 
+            | ,;         ,    ,::'  ,:::   |,' 
+            |,:        .(          ,:::|   ` 
+            ::'_   _   ::         ,::/:| 
+           ,',' `-' \   `.      ,:::/,:| 
+          | : _  _   |   '     ,::,' ::: 
+          | \ O`'O  ,',   ,    :,'   ;:: 
+           \ `-'`--',:' ,' , ,,'      :: 
+            ``:.:.__   ',-','        ::' 
+    -J*H-      `--.__, ,::.         ::' 
+                   |:  ::::.       ::' 
+                   |:  ::::::    ,::' 
+*/
+
+/* ----- Portfolio by Julian Hasse, 2017 ----- */
 * {
-/* The box-sizing property is used to tell the browser what the sizing 
-properties (width and height) should include. */
   box-sizing:border-box; 
 }
 
@@ -9,37 +33,29 @@ body {
   background-image: url('images/ep_naturalwhite.png');
 }
 
+/* ----- sticky footer using the calc() function ----- */
 #wrapper {
-  /* sticky footer using the calc() function */
   min-height: calc(100vh - 177px);
   margin: 0 auto; 
   width:960px;
 }
-
+/* ----- Header includes -> logo + Nav ----- */
 header {
   background-color: #FFF;
-/*  padding:0px 0px 20px 20px;*/
   margin-bottom: 30px;
   color:#888;
   border-bottom: 2px solid #ccc;
   height:70px;
 }
-
-/*section {
-  padding:20px;
-  margin-bottom: 40px;
-}*/
-
+/* ----- Full includes -> Main content + Aside ----- */
 #full {
   margin-top: 15px;
   clear: both;
   width: 90%;
- /* position: absolute;
-  left: 79px;*/
   padding:0px;
   min-height: 300px;
 }
-
+/* ----- Contact links ----- */
 aside {
 	background-color:white;
   padding: 50px 40px;
@@ -50,10 +66,8 @@ aside {
   margin-right: 20px;
   text-align: center;
   float:left;
-/*  position: absolute;
-  left: 630px;*/
 }
-
+/* ----- About me ----- */
 article {
   background-color:white;
   padding:50px;
@@ -64,7 +78,7 @@ article {
   min-height:300px;
   margin-right: 40px;
 }
-
+/* ----- Portfolio ----- */
 article.portfolio {
   background-color:white;
   padding:50px 20px 20px 30px;
@@ -74,6 +88,7 @@ article.portfolio {
   border: 1px dotted #ddd;
   min-height:300px;
 }
+
 article hr {
   border-width: 1px;
   border-color:#ddd;
@@ -83,7 +98,7 @@ aside hr {
   border-width: thin;
   border-color:#ddd;
 }
-
+/* ----- Sticky footer ----- */
 footer {
   background-color: #666;
   padding:30px;
@@ -92,14 +107,13 @@ footer {
   border-top: thick solid #4aaaa5;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   text-align: center;
-	
-}
+	}
 
 #middleSection {
   padding:40px;
   color:#888;
 }
-
+/* ----- Logo (inside header) ----- */
 #logo {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
   font-size: 24px;
@@ -109,21 +123,16 @@ footer {
   background-color: #4aaaa5;
   color:#FFF;
   margin:0px 425px 0 0;
-  /*position: absolute;
-  left: 79px; */
 }
-
+/* ----- Nav (inside header) ----- */
 nav {
   float:left;
- /* margin-right: 680px; */
   margin-top: 0px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size:15px;
   padding-top: 26px;
-/*  position: absolute;
-  left: 780px;*/
 }
-
+/* ----- Interactive buttons + links ----- */
 .button:hover {
   color:#4aaaa5;
 }
@@ -149,8 +158,9 @@ a:active {
 }
 
 #logo:hover {
-  text-shadow: 0 0 3px #FFF;
+  opacity: 0.9;
 }
+/* ----- End Interactive buttons + links ----- */
 
 .headings {
   color:#4aaaa5;
@@ -181,7 +191,7 @@ a:active {
 .mainContent {
   margin-top: 21px;
 }
-
+/* ----- Contact link icons ----- */
 .iconLeft {
   float:left;
   margin-right: 5px;
@@ -204,7 +214,9 @@ a:active {
 .icons img:hover {
   opacity:0.7;
 }
+/* ----- End Contact link icons ----- */
 
+/* ----- Contact form ----- */
 form {
   font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 15px;
@@ -248,7 +260,9 @@ textarea {
     border-radius: 4px;
     resize: vertical;
 }
+/* ----- End Contact form ----- */
 
+/* ----- Portfolio images ----- */
 .img1 {
   float:left;
   padding-left: 0px;
@@ -263,3 +277,5 @@ margin-right: 3px;
   margin-top: 21px;
   padding:5px;
 }
+
+/* ----- End Portfolio images ----- */

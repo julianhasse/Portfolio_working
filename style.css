@@ -253,4 +253,13 @@ margin-right: 3px;
   padding:5px;
 }
 
+.img1:hover {
+  opacity:0.9;
+}
+
+.img2:hover {
+  opacity:0.9;
+}
+
+
 /* ----- End Portfolio images ----- */
